@@ -1,4 +1,4 @@
-# lottery-c
+# Lottery C
 
 ## Usage
 Compiling the program:
