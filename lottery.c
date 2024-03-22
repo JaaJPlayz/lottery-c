@@ -51,9 +51,9 @@ int main() {
   printf("You guessed %d numbers correctly.\n", count);
 
   if (count == 6) {
-    printf("Congratulations! You won the lottery!\n");
+    printf("Congratulations! You won the lottery! 🎉\n");
   } else {
-    printf("Better luck next time.\n");
+    printf("You unfortunately did not win the lottery 🐿\n");
   }
 
   return 0;
