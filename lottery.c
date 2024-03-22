@@ -6,7 +6,7 @@ int main() {
   int user_numbers[6];
 
   for (int i = 0; i < 6; i++) {
-    cpu_numbers[i] = rand() % 49 + 1;
+    cpu_numbers[i] = rand() % 60 + 1;
     for (int j = 0; j < i; j++) {
       if (cpu_numbers[i] == cpu_numbers[j]) {
         i--;
